@@ -5,6 +5,6 @@
 
 ### Teuida
 - ReVanced MicroG support (GmsCore)
-- Unlocked 
+- Unlocked Premium
 ### MyExpenses
 - Unlocked Pro (no expiration)
