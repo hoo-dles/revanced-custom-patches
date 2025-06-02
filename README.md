@@ -3,8 +3,15 @@
 ![GitHub Workflow Status (with event)](https://img.shields.io/github/actions/workflow/status/hoo-dles/revanced-custom-patches/release.yml)
 ![GPLv3 License](https://img.shields.io/badge/License-GPL%20v3-yellow.svg)
 
-### Teuida
-- ReVanced MicroG support (GmsCore)
-- Unlocked Premium
+### Duolingo
+
+- Disable practice reminder banner nag
+
 ### MyExpenses
-- Unlocked Pro (no expiration)
+
+- Unlock Pro (no expiration)
+
+### Teuida
+
+- ReVanced MicroG support (GmsCore)
+- Unlock Premium

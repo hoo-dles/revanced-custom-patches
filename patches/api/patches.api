@@ -18,6 +18,10 @@ public final class app/revanced/patches/all/misc/resources/AddResourcesPatchKt {
 	public static final fun getAddResourcesPatch ()Lapp/revanced/patcher/patch/ResourcePatch;
 }
 
+public final class app/revanced/patches/duolingo/nags/DisableNagsPatchKt {
+	public static final fun getDisableNagsPatch ()Lapp/revanced/patcher/patch/BytecodePatch;
+}
+
 public final class app/revanced/patches/myexpenses/misc/pro/UnlockProPatchKt {
 	public static final fun getUnlockProPatch ()Lapp/revanced/patcher/patch/BytecodePatch;
 }
