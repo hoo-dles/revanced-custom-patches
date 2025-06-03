@@ -6,6 +6,7 @@
 ### Duolingo
 
 - Disable practice reminder banner nag
+- Unlock Super
 
 ### MyExpenses
 
@@ -13,5 +14,5 @@
 
 ### Teuida
 
-- ReVanced MicroG support (GmsCore)
+- ReVanced MicroG support
 - Unlock Premium
