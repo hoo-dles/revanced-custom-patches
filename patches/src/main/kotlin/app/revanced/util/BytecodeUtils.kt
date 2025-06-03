@@ -10,6 +10,7 @@ import app.revanced.patcher.extensions.InstructionExtensions.removeInstruction
 import app.revanced.patcher.patch.BytecodePatchContext
 import app.revanced.patcher.patch.PatchException
 import app.revanced.patcher.util.proxy.mutableTypes.MutableClass
+import app.revanced.patcher.util.proxy.mutableTypes.MutableField
 import app.revanced.patcher.util.proxy.mutableTypes.MutableMethod
 import app.revanced.patcher.util.smali.ExternalLabel
 import app.revanced.patches.shared.misc.mapping.get
@@ -21,18 +22,12 @@ import app.revanced.util.InstructionUtils.Companion.writeOpcodes
 import com.android.tools.smali.dexlib2.AccessFlags
 import com.android.tools.smali.dexlib2.Opcode
 import com.android.tools.smali.dexlib2.Opcode.*
+import com.android.tools.smali.dexlib2.iface.ClassDef
 import com.android.tools.smali.dexlib2.iface.Method
-import com.android.tools.smali.dexlib2.iface.instruction.FiveRegisterInstruction
-import com.android.tools.smali.dexlib2.iface.instruction.Instruction
-import com.android.tools.smali.dexlib2.iface.instruction.OneRegisterInstruction
-import com.android.tools.smali.dexlib2.iface.instruction.ReferenceInstruction
-import com.android.tools.smali.dexlib2.iface.instruction.RegisterRangeInstruction
-import com.android.tools.smali.dexlib2.iface.instruction.ThreeRegisterInstruction
-import com.android.tools.smali.dexlib2.iface.instruction.TwoRegisterInstruction
-import com.android.tools.smali.dexlib2.iface.instruction.WideLiteralInstruction
+import com.android.tools.smali.dexlib2.iface.instruction.*
 import com.android.tools.smali.dexlib2.iface.reference.Reference
 import com.android.tools.smali.dexlib2.util.MethodUtil
-import java.util.EnumSet
+import java.util.*
 
 /**
  * Starting from and including the instruction at index [startIndex],
@@ -966,6 +961,33 @@ private fun MutableMethod.overrideReturnValue(value: String, returnLate: Boolean
         addInstructions(0, instructions)
     }
 }
+
+/**
+ * Remove the given AccessFlags from the field.
+ */
+internal fun MutableField.removeFlag(vararg flags: AccessFlags) {
+    val bitField = flags.map { it.value }.reduce { acc, flag -> acc and flag }
+    this.accessFlags = this.accessFlags and bitField.inv()
+}
+
+/**
+ * Get the first field with the given name.
+ */
+internal fun MutableClass.fieldByName(name: String): MutableField {
+    return this.fields.first { it.name == name }
+}
+
+/**
+ * Get the first constructor.
+ */
+internal val MutableClass.constructor: MutableMethod
+    get() = this.methods.first { AccessFlags.CONSTRUCTOR.isSet(it.accessFlags) }
+
+/**
+ * Get the public toString() method.
+ */
+internal val ClassDef.toStringMethod: Method
+    get() = this.methods.first { it.name == "toString" && AccessFlags.PUBLIC.isSet(it.accessFlags) }
 
 /**
  * Set the custom condition for this fingerprint to check for a literal value.

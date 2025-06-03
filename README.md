@@ -6,6 +6,7 @@
 ### Duolingo
 
 - Disable practice reminder banner nag
+- Unlock Super
 
 ### MyExpenses
 
