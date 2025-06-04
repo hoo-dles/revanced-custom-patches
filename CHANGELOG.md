@@ -1,3 +1,10 @@
+# [1.2.0-dev.2](https://github.com/hoo-dles/revanced-custom-patches/compare/v1.2.0-dev.1...v1.2.0-dev.2) (2025-06-04)
+
+
+### Features
+
+* **Duolingo:** Add `Unlock licensed songs` patch ([e45b8c1](https://github.com/hoo-dles/revanced-custom-patches/commit/e45b8c1b36f707f46e59b3bbc9b91191466011d4))
+
 # [1.2.0-dev.1](https://github.com/hoo-dles/revanced-custom-patches/compare/v1.1.0...v1.2.0-dev.1) (2025-06-03)
 
 
