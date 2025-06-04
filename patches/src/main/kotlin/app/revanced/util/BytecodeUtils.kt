@@ -980,14 +980,14 @@ internal fun MutableClass.fieldByName(name: String): MutableField {
 /**
  * Get the first constructor.
  */
-internal val MutableClass.constructor: MutableMethod
-    get() = this.methods.first { AccessFlags.CONSTRUCTOR.isSet(it.accessFlags) }
+internal fun MutableClass.constructor() =
+    this.methods.first { AccessFlags.CONSTRUCTOR.isSet(it.accessFlags) }
 
 /**
  * Get the public toString() method.
  */
-internal val ClassDef.toStringMethod: Method
-    get() = this.methods.first { it.name == "toString" && AccessFlags.PUBLIC.isSet(it.accessFlags) }
+internal fun ClassDef.toStringMethod() =
+    this.methods.first { it.name == "toString" && AccessFlags.PUBLIC.isSet(it.accessFlags) }
 
 /**
  * Set the custom condition for this fingerprint to check for a literal value.
