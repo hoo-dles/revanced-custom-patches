@@ -1,3 +1,10 @@
+# [1.2.0-dev.3](https://github.com/hoo-dles/revanced-custom-patches/compare/v1.2.0-dev.2...v1.2.0-dev.3) (2025-06-05)
+
+
+### Features
+
+* **Merriam-Webster:** Add `Enable Premium` patch ([92adc45](https://github.com/hoo-dles/revanced-custom-patches/commit/92adc45b4cb0c97886f914bb8c14b04529882541))
+
 # [1.2.0-dev.2](https://github.com/hoo-dles/revanced-custom-patches/compare/v1.2.0-dev.1...v1.2.0-dev.2) (2025-06-04)
 
 
