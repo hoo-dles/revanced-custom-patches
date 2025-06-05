@@ -9,6 +9,10 @@
 - Unlock licensed songs
 - Unlock Super
 
+### Merriam-Webster
+
+- Unlock Premium
+
 ### MyExpenses
 
 - Unlock Pro (no expiration)
