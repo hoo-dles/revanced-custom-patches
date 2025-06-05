@@ -18,6 +18,18 @@ public final class app/revanced/patches/all/misc/resources/AddResourcesPatchKt {
 	public static final fun getAddResourcesPatch ()Lapp/revanced/patcher/patch/ResourcePatch;
 }
 
+public final class app/revanced/patches/duolingo/music/FullSongsPatchKt {
+	public static final fun getUnlockFullSongsPatch ()Lapp/revanced/patcher/patch/BytecodePatch;
+}
+
+public final class app/revanced/patches/duolingo/nags/DisableNagsPatchKt {
+	public static final fun getDisableNagsPatch ()Lapp/revanced/patcher/patch/BytecodePatch;
+}
+
+public final class app/revanced/patches/duolingo/premium/EnablePremiumPatchKt {
+	public static final fun getEnablePremiumPatch ()Lapp/revanced/patcher/patch/BytecodePatch;
+}
+
 public final class app/revanced/patches/myexpenses/misc/pro/UnlockProPatchKt {
 	public static final fun getUnlockProPatch ()Lapp/revanced/patcher/patch/BytecodePatch;
 }
@@ -74,6 +86,10 @@ public final class app/revanced/patches/teuida/misc/gms/GmsCoreSupportPatchKt {
 
 public final class app/revanced/patches/teuida/premium/EnablePremiumPatchKt {
 	public static final fun getEnablePremiumPatch ()Lapp/revanced/patcher/patch/BytecodePatch;
+}
+
+public final class app/revanced/patches/webster/premium/UnlockPremiumPatchKt {
+	public static final fun getUnlockPremiumPatch ()Lapp/revanced/patcher/patch/BytecodePatch;
 }
 
 public final class app/revanced/util/BytecodeUtilsKt {
