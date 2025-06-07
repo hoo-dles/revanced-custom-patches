@@ -18,6 +18,10 @@ public final class app/revanced/patches/all/misc/resources/AddResourcesPatchKt {
 	public static final fun getAddResourcesPatch ()Lapp/revanced/patcher/patch/ResourcePatch;
 }
 
+public final class app/revanced/patches/duolingo/misc/debug/EnableDebugModePatchKt {
+	public static final fun getEnableDebugModePatch ()Lapp/revanced/patcher/patch/BytecodePatch;
+}
+
 public final class app/revanced/patches/duolingo/music/FullSongsPatchKt {
 	public static final fun getUnlockFullSongsPatch ()Lapp/revanced/patcher/patch/BytecodePatch;
 }
