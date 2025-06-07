@@ -6,6 +6,7 @@
 ### Duolingo
 
 - Disable practice reminder banner nag
+- Enable debug mode
 - Unlock licensed songs
 - Unlock Super
 
