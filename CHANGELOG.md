@@ -1,3 +1,10 @@
+# [1.3.0-dev.2](https://github.com/hoo-dles/revanced-custom-patches/compare/v1.3.0-dev.1...v1.3.0-dev.2) (2025-06-19)
+
+
+### Features
+
+* **Crunchyroll:** Add `Enable premium` patch ([f9d81de](https://github.com/hoo-dles/revanced-custom-patches/commit/f9d81defe2d55d004ce81d8ab51935263ec4e9fd))
+
 # [1.3.0-dev.1](https://github.com/hoo-dles/revanced-custom-patches/compare/v1.2.0...v1.3.0-dev.1) (2025-06-07)
 
 
