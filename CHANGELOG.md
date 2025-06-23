@@ -1,3 +1,10 @@
+# [1.3.0-dev.3](https://github.com/hoo-dles/revanced-custom-patches/compare/v1.3.0-dev.2...v1.3.0-dev.3) (2025-06-23)
+
+
+### Features
+
+* **guessthecountry:** Add `Remove ads` patch ([c2710f6](https://github.com/hoo-dles/revanced-custom-patches/commit/c2710f6773eda2348ed0c53322acae1f2040cf44))
+
 # [1.3.0-dev.2](https://github.com/hoo-dles/revanced-custom-patches/compare/v1.3.0-dev.1...v1.3.0-dev.2) (2025-06-19)
 
 
