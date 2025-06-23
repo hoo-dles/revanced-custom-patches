@@ -1,3 +1,24 @@
+# [1.3.0-dev.3](https://github.com/hoo-dles/revanced-custom-patches/compare/v1.3.0-dev.2...v1.3.0-dev.3) (2025-06-23)
+
+
+### Features
+
+* **guessthecountry:** Add `Remove ads` patch ([c2710f6](https://github.com/hoo-dles/revanced-custom-patches/commit/c2710f6773eda2348ed0c53322acae1f2040cf44))
+
+# [1.3.0-dev.2](https://github.com/hoo-dles/revanced-custom-patches/compare/v1.3.0-dev.1...v1.3.0-dev.2) (2025-06-19)
+
+
+### Features
+
+* **Crunchyroll:** Add `Enable premium` patch ([f9d81de](https://github.com/hoo-dles/revanced-custom-patches/commit/f9d81defe2d55d004ce81d8ab51935263ec4e9fd))
+
+# [1.3.0-dev.1](https://github.com/hoo-dles/revanced-custom-patches/compare/v1.2.0...v1.3.0-dev.1) (2025-06-07)
+
+
+### Features
+
+* **Duolingo:** Add `Enable debug mode` patch ([5398d6b](https://github.com/hoo-dles/revanced-custom-patches/commit/5398d6b6491c18c25ef9888da01e1030954bb8db))
+
 # [1.2.0](https://github.com/hoo-dles/revanced-custom-patches/compare/v1.1.0...v1.2.0) (2025-06-05)
 
 

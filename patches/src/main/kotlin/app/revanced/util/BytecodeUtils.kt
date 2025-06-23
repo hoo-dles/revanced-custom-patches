@@ -990,6 +990,18 @@ internal fun ClassDef.toStringMethod() =
     this.methods.first { it.name == "toString" && AccessFlags.PUBLIC.isSet(it.accessFlags) }
 
 /**
+ * Add instructions `indexFromEnd` places before the end of the method.
+ */
+internal fun MutableMethod.addInstructionsToEnd(indexFromEnd: Int, smaliInstructions: String) =
+    this.addInstructions(this.instructions.count() - indexFromEnd, smaliInstructions)
+
+/**
+ * Add instructions to end of method before final return instruction.
+ */
+internal fun MutableMethod.addInstructionsToEnd(smaliInstructions: String) =
+    this.addInstructionsToEnd(1, smaliInstructions)
+
+/**
  * Set the custom condition for this fingerprint to check for a literal value.
  *
  * @param literalSupplier The supplier for the literal value to check for.
