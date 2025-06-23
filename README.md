@@ -26,3 +26,7 @@
 
 - ReVanced MicroG support
 - Unlock Premium
+
+### World Map Quiz
+
+- Remove ads
