@@ -38,6 +38,10 @@ public final class app/revanced/patches/duolingo/premium/EnablePremiumPatchKt {
 	public static final fun getEnablePremiumPatch ()Lapp/revanced/patcher/patch/BytecodePatch;
 }
 
+public final class app/revanced/patches/guessthecountry/ads/RemoveAdsPatchKt {
+	public static final fun getRemoveAdsPatch ()Lapp/revanced/patcher/patch/BytecodePatch;
+}
+
 public final class app/revanced/patches/myexpenses/misc/pro/UnlockProPatchKt {
 	public static final fun getUnlockProPatch ()Lapp/revanced/patcher/patch/BytecodePatch;
 }
