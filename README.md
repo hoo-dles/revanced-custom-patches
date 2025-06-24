@@ -29,4 +29,4 @@
 
 ### World Map Quiz
 
-- Remove ads
+- Unlock Premium
