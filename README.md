@@ -24,7 +24,9 @@
 
 ### Teuida
 
-- ReVanced MicroG support (GmsCore)
-- Unlocked 
-### MyExpenses
-- Unlocked Pro (no expiration)
+- ReVanced MicroG support
+- Unlock Premium
+
+### World Map Quiz
+
+- Unlock Premium
