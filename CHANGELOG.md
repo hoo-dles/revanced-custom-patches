@@ -1,3 +1,10 @@
+# [1.4.0](https://github.com/hoo-dles/revanced-custom-patches/compare/v1.3.0...v1.4.0) (2025-06-27)
+
+
+### Features
+
+* **guessthecountry:** Replace `Remove ads` patch with `Enable Premium` ([8246b34](https://github.com/hoo-dles/revanced-custom-patches/commit/8246b34127b918cf7b6fdfc9c5f4828249fd76b7))
+
 # [1.4.0-dev.1](https://github.com/hoo-dles/revanced-custom-patches/compare/v1.3.0...v1.4.0-dev.1) (2025-06-24)
 
 
