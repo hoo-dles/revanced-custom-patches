@@ -18,8 +18,8 @@ val EnableDebugModePatch = bytecodePatch(
 
     execute {
         // Obfuscated class and name, but essentially: BuildConfigProvider.isDebug
-        val isDebugFieldRef = getCanOpenDebugMenuFingerprint.method
-            .getInstruction(getCanOpenDebugMenuFingerprint.patternMatch!!.startIndex)
+        val isDebugFieldRef = buildTargetFieldFingerprint.method
+            .getInstruction(buildTargetFieldFingerprint.patternMatch!!.startIndex + 1)
             .getReference<FieldReference>()
             ?: throw PatchException("Could not find isDebug field reference")
 
