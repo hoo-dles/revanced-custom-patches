@@ -1,3 +1,10 @@
+## [1.4.1-dev.1](https://github.com/hoo-dles/revanced-custom-patches/compare/v1.4.0...v1.4.1-dev.1) (2025-09-10)
+
+
+### Bug Fixes
+
+* **Duolingo:** Updating patches for latest version (v6.47.5) ([22666eb](https://github.com/hoo-dles/revanced-custom-patches/commit/22666ebfacec71d63d8095f969b6ec64ebecef18))
+
 # [1.4.0](https://github.com/hoo-dles/revanced-custom-patches/compare/v1.3.0...v1.4.0) (2025-06-27)
 
 
