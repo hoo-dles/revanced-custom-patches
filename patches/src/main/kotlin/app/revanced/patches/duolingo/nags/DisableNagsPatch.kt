@@ -17,7 +17,7 @@ import com.android.tools.smali.dexlib2.iface.reference.MethodReference
 val DisableNagsPatch = bytecodePatch(
     name = "Disable practice reminder nag",
 ) {
-    compatibleWith("com.duolingo")
+    compatibleWith("com.duolingo"("6.33.2"))
 
     execute {
         homeFragmentStateFingerprint.method.apply {
