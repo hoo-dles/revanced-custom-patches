@@ -12,8 +12,9 @@ internal val userFingerprint = fingerprint {
     strings("User(adsConfig=", ", id=", ", betaStatus=")
 }
 
+// Some class that has to do with subscription trials
 internal val userIsPaidFieldUsageFingerprint = fingerprint {
-    strings("user", "subscriptionsReady")
-    parameters("Ljava/lang/Object;", "Ljava/lang/Object;")
-    returns("Ljava/lang/Object;")
+    parameters("L", "L")
+    returns("Z")
+    strings("user", "onboardingState")
 }
