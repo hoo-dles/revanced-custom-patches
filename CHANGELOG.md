@@ -1,3 +1,15 @@
+# [1.5.0](https://github.com/hoo-dles/revanced-custom-patches/compare/v1.4.0...v1.5.0) (2025-10-31)
+
+
+### Bug Fixes
+
+* **Duolingo:** Updating patches for latest version (v6.47.5) ([22666eb](https://github.com/hoo-dles/revanced-custom-patches/commit/22666ebfacec71d63d8095f969b6ec64ebecef18))
+
+
+### Features
+
+* **Cake:** Add `Enable Plus` patch ([27941a4](https://github.com/hoo-dles/revanced-custom-patches/commit/27941a4f8b57f118345e76ca7cb17121b4dcb69d))
+
 # [1.5.0-dev.1](https://github.com/hoo-dles/revanced-custom-patches/compare/v1.4.1-dev.1...v1.5.0-dev.1) (2025-10-31)
 
 
