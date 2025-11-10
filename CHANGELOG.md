@@ -1,3 +1,24 @@
+# 1.0.0-dev.1 (2025-11-10)
+
+
+### Bug Fixes
+
+* **Duolingo:** Updating patches for latest version (v6.47.5) ([bf4681c](https://github.com/hoo-dles/revanced-custom-patches/commit/bf4681c0bf29bcc19d7c6b51876ed85229969155))
+
+
+### Features
+
+* **Avocards:** Add `Enable Premium` patch ([71f0a52](https://github.com/hoo-dles/revanced-custom-patches/commit/71f0a52dba6323c40943790cd418852055d82ed7))
+* **Cake:** Add `Enable Plus` patch ([ab5880f](https://github.com/hoo-dles/revanced-custom-patches/commit/ab5880f129ec4bc41ac60ea81b5934a6887b1a3a))
+* **Crunchyroll:** Add `Enable premium` patch ([3cc7e17](https://github.com/hoo-dles/revanced-custom-patches/commit/3cc7e171b94c24d0d344194d48443c84d62e87be))
+* **Duolingo:** Add `Enable debug mode` patch ([bdeb0ec](https://github.com/hoo-dles/revanced-custom-patches/commit/bdeb0ec8a0930f8daa4a80209f21217da2b6be8e))
+* **Duolingo:** Add `Unlock licensed songs` patch ([99f9999](https://github.com/hoo-dles/revanced-custom-patches/commit/99f9999f993170638b683d11941076940a451b11))
+* **Duolingo:** Add `Unlock super` patch ([c2efc27](https://github.com/hoo-dles/revanced-custom-patches/commit/c2efc27cd4d3b832a9e926f6d8972b85b7eb1900))
+* **Duolingo:** Adding `Disable practice reminder nag` patch ([bf59885](https://github.com/hoo-dles/revanced-custom-patches/commit/bf59885c743a211487d3059dcd5bdbf2f1e61144))
+* **guessthecountry:** Add `Remove ads` patch ([902ad70](https://github.com/hoo-dles/revanced-custom-patches/commit/902ad7019189c065ca2049f1e39c21db9c41a008))
+* **guessthecountry:** Replace `Remove ads` patch with `Enable Premium` ([4e91a89](https://github.com/hoo-dles/revanced-custom-patches/commit/4e91a89f939aac8bdd9f06793709b3f6d146c5f3))
+* **Merriam-Webster:** Add `Enable Premium` patch ([1ed1ce4](https://github.com/hoo-dles/revanced-custom-patches/commit/1ed1ce43a3ca10d81c9564ebaa5ba597b49e3cb1))
+
 # [1.5.0](https://github.com/hoo-dles/revanced-custom-patches/compare/v1.4.0...v1.5.0) (2025-10-31)
 
 
