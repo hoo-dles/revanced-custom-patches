@@ -1,7 +1,3 @@
-public final class app/revanced/patches/all/misc/hex/HexPatchKt {
-	public static final fun getHexPatch ()Lapp/revanced/patcher/patch/RawResourcePatch;
-}
-
 public final class app/revanced/patches/all/misc/packagename/ChangePackageNamePatchKt {
 	public static field packageNameOption Lapp/revanced/patcher/patch/Option;
 	public static final fun getChangePackageNamePatch ()Lapp/revanced/patcher/patch/ResourcePatch;
@@ -20,6 +16,10 @@ public final class app/revanced/patches/all/misc/resources/AddResourcesPatchKt {
 	public static synthetic fun addResources$default (Lapp/revanced/patcher/patch/Patch;Lkotlin/jvm/functions/Function1;ILjava/lang/Object;)Z
 	public static synthetic fun addResources$default (Ljava/lang/String;Ljava/lang/String;ZLjava/lang/String;ILjava/lang/Object;)Z
 	public static final fun getAddResourcesPatch ()Lapp/revanced/patcher/patch/ResourcePatch;
+}
+
+public final class app/revanced/patches/avocards/premium/EnablePremiumPatchKt {
+	public static final fun getEnablePremiumPatch ()Lapp/revanced/patcher/patch/BytecodePatch;
 }
 
 public final class app/revanced/patches/cake/plus/EnablePlusPatchKt {

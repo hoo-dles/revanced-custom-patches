@@ -11,6 +11,7 @@
 
 | App             | Package                       | Patches                                                                                                                             |
 |-----------------|-------------------------------|-------------------------------------------------------------------------------------------------------------------------------------|
+| Avocards        | `com.avocards`                | <ul><li>Enable Premium</li></ul>                                                                                                    |
 | Cake            | `me.mycake`                   | <ul><li>Enable Plus</li></ul>                                                                                                       |
 | Crunchyroll     | `com.crunchyroll.crunchyroid` | <ul><li>Enable Premium</li></ul>                                                                                                    |
 | Duolingo        | `com.duolingo`                | <ul><li>Disable practice reminder banner nag</li><li>Enable debug mode</li><li>Unlock licensed songs</li><li>Unlock Super</li></ul> |
