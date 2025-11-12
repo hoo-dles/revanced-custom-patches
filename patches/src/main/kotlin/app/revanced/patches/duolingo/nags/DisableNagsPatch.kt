@@ -16,6 +16,7 @@ import com.android.tools.smali.dexlib2.iface.reference.MethodReference
 @Suppress("unused")
 val DisableNagsPatch = bytecodePatch(
     name = "Disable practice reminder nag",
+    use = false
 ) {
     compatibleWith("com.duolingo"("6.33.2"))
 

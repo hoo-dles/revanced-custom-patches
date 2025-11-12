@@ -1,7 +1,3 @@
-public final class app/revanced/patches/all/misc/hex/HexPatchKt {
-	public static final fun getHexPatch ()Lapp/revanced/patcher/patch/RawResourcePatch;
-}
-
 public final class app/revanced/patches/all/misc/packagename/ChangePackageNamePatchKt {
 	public static field packageNameOption Lapp/revanced/patcher/patch/Option;
 	public static final fun getChangePackageNamePatch ()Lapp/revanced/patcher/patch/ResourcePatch;
@@ -22,6 +18,10 @@ public final class app/revanced/patches/all/misc/resources/AddResourcesPatchKt {
 	public static final fun getAddResourcesPatch ()Lapp/revanced/patcher/patch/ResourcePatch;
 }
 
+public final class app/revanced/patches/avocards/premium/EnablePremiumPatchKt {
+	public static final fun getEnablePremiumPatch ()Lapp/revanced/patcher/patch/BytecodePatch;
+}
+
 public final class app/revanced/patches/cake/plus/EnablePlusPatchKt {
 	public static final fun getEnablePlusPatch ()Lapp/revanced/patcher/patch/RawResourcePatch;
 }
@@ -34,6 +34,15 @@ public final class app/revanced/patches/duolingo/misc/debug/EnableDebugModePatch
 	public static final fun getEnableDebugModePatch ()Lapp/revanced/patcher/patch/BytecodePatch;
 }
 
+public final class app/revanced/patches/duolingo/misc/integrity/DisableLoginIntegrityPatchKt {
+	public static final fun getDisableLoginIntegrityPatch ()Lapp/revanced/patcher/patch/BytecodePatch;
+}
+
+public final class app/revanced/patches/duolingo/misc/integrity/FinterprintsKt {
+	public static final fun getBasicLoginFingerprint ()Lapp/revanced/patcher/Fingerprint;
+	public static final fun getLoginStateFingerprint ()Lapp/revanced/patcher/Fingerprint;
+}
+
 public final class app/revanced/patches/duolingo/music/FullSongsPatchKt {
 	public static final fun getUnlockFullSongsPatch ()Lapp/revanced/patcher/patch/BytecodePatch;
 }
@@ -44,6 +53,14 @@ public final class app/revanced/patches/duolingo/nags/DisableNagsPatchKt {
 
 public final class app/revanced/patches/duolingo/premium/EnablePremiumPatchKt {
 	public static final fun getEnablePremiumPatch ()Lapp/revanced/patcher/patch/BytecodePatch;
+}
+
+public final class app/revanced/patches/duolingo/premium/PremiumVariant : java/lang/Enum {
+	public static final field MAX Lapp/revanced/patches/duolingo/premium/PremiumVariant;
+	public static final field SUPER Lapp/revanced/patches/duolingo/premium/PremiumVariant;
+	public static fun getEntries ()Lkotlin/enums/EnumEntries;
+	public static fun valueOf (Ljava/lang/String;)Lapp/revanced/patches/duolingo/premium/PremiumVariant;
+	public static fun values ()[Lapp/revanced/patches/duolingo/premium/PremiumVariant;
 }
 
 public final class app/revanced/patches/guessthecountry/premium/RemoveAdsPatchKt {
