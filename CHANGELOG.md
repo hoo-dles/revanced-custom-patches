@@ -1,3 +1,11 @@
+# [1.6.0](https://github.com/hoo-dles/revanced-custom-patches/compare/v1.5.0...v1.6.0) (2025-11-12)
+
+
+### Features
+
+* **Avocards:** Add `Enable Premium` patch ([71f0a52](https://github.com/hoo-dles/revanced-custom-patches/commit/71f0a52dba6323c40943790cd418852055d82ed7))
+* **Duolingo:** Add patch to disable play integrity and modify `Enable Premium` to allow Super or MAX ([8025c0e](https://github.com/hoo-dles/revanced-custom-patches/commit/8025c0ef20b095c88d8c1e439b5b5156b24c086a))
+
 # [1.6.0-dev.1](https://github.com/hoo-dles/revanced-custom-patches/compare/v1.5.0...v1.6.0-dev.1) (2025-11-12)
 
 
