@@ -1,3 +1,10 @@
+# [1.0.0-dev.2](https://github.com/hoo-dles/revanced-custom-patches/compare/v1.0.0-dev.1...v1.0.0-dev.2) (2025-11-12)
+
+
+### Features
+
+* **Duolingo:** Add patch to disable play integrity and modify `Enable Premium` to allow Super or MAX ([8025c0e](https://github.com/hoo-dles/revanced-custom-patches/commit/8025c0ef20b095c88d8c1e439b5b5156b24c086a))
+
 # 1.0.0-dev.1 (2025-11-10)
 
 
