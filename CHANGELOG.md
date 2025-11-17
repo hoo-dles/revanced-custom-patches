@@ -1,3 +1,10 @@
+## [1.6.1-dev.1](https://github.com/hoo-dles/revanced-custom-patches/compare/v1.6.0...v1.6.1-dev.1) (2025-11-17)
+
+
+### Bug Fixes
+
+* **Duolingo:** Adding option description to prevent hang in ReVanced Manager ([2674a38](https://github.com/hoo-dles/revanced-custom-patches/commit/2674a388eee1bff069f56f1247244a804321e1eb))
+
 # [1.6.0](https://github.com/hoo-dles/revanced-custom-patches/compare/v1.5.0...v1.6.0) (2025-11-12)
 
 
