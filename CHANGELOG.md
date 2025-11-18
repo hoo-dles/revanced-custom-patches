@@ -1,3 +1,15 @@
+# [1.7.0](https://github.com/hoo-dles/revanced-custom-patches/compare/v1.6.0...v1.7.0) (2025-11-18)
+
+
+### Bug Fixes
+
+* **Duolingo:** Adding option description to prevent hang in ReVanced Manager ([2674a38](https://github.com/hoo-dles/revanced-custom-patches/commit/2674a388eee1bff069f56f1247244a804321e1eb))
+
+
+### Features
+
+* **Eggbun:** Adding `Enable Premium` patch ([6c85bb3](https://github.com/hoo-dles/revanced-custom-patches/commit/6c85bb358f62b2d89d896b92582f3f4d3f02881e))
+
 # [1.7.0-dev.1](https://github.com/hoo-dles/revanced-custom-patches/compare/v1.6.1-dev.1...v1.7.0-dev.1) (2025-11-17)
 
 
