@@ -30,7 +30,8 @@ val enablePremiumPatch = bytecodePatch(
             "Duolingo Super" to PremiumVariant.SUPER.name,
             "Duolingo MAX" to PremiumVariant.MAX.name
         ),
-        title = "Subscription type",
+        title = "Type",
+        description = "Choose which type of premium Duolingo subscription to enable.",
         required = true,
     )
 

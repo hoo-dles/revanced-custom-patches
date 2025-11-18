@@ -63,6 +63,14 @@ public final class app/revanced/patches/duolingo/premium/PremiumVariant : java/l
 	public static fun values ()[Lapp/revanced/patches/duolingo/premium/PremiumVariant;
 }
 
+public final class app/revanced/patches/eggbun/premium/EnablePremiumPatchKt {
+	public static final fun getEnablePremiumPatch ()Lapp/revanced/patcher/patch/BytecodePatch;
+}
+
+public final class app/revanced/patches/eggbun/premium/FingerprintsKt {
+	public static final field ACCOUNT_CLASS Ljava/lang/String;
+}
+
 public final class app/revanced/patches/guessthecountry/premium/RemoveAdsPatchKt {
 	public static final fun getEnablePremiumPatch ()Lapp/revanced/patcher/patch/BytecodePatch;
 }
