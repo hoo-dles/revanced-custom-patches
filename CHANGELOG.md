@@ -1,3 +1,10 @@
+# [1.8.0-dev.1](https://github.com/hoo-dles/revanced-custom-patches/compare/v1.7.0...v1.8.0-dev.1) (2025-11-22)
+
+
+### Features
+
+* **Eggbun:** Add `Force Native Keyboard` patch ([dc3b9c0](https://github.com/hoo-dles/revanced-custom-patches/commit/dc3b9c0ad933210941aecdc6dca924cf9974104a))
+
 # [1.7.0](https://github.com/hoo-dles/revanced-custom-patches/compare/v1.6.0...v1.7.0) (2025-11-18)
 
 
