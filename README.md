@@ -15,10 +15,10 @@
 | Avocards           | `com.avocards`                     | <ul><li>Enable Premium</li></ul>                                                                                                |
 | Cake               | `me.mycake`                        | <ul><li>Enable Plus</li></ul>                                                                                                   |
 | Crunchyroll        | `com.crunchyroll.crunchyroid`      | <ul><li>Enable Premium _(limited functionality)_</li></ul>                                                                      |
-| Duolingo           | `com.duolingo`                     | <ul><li>Enable debug mode</li><li>Unlock licensed songs</li><li>Enable Super/MAX</li><li>Disable Play Integrity check</li></ul> |
+| Duolingo           | `com.duolingo`                     | <ul><li>Disable Play Integrity check</li><li>Enable debug mode</li><li>Enable Super/MAX</li><li>Unlock licensed songs</li></ul> |
 | Eggbun             | `kr.eggbun.eggconvo`               | <ul><li>Enable Premium</li><li>Force native keyboard</li></ul>                                                                  |
 | Merriam-Webster    | `com.merriamwebster`               | <ul><li>Enable Premium</li></ul>                                                                                                |
 | MyExpenses         | `org.totschnig.myexpenses`         | <ul><li>Enable Pro</li></ul>                                                                                                    |
-| Pandora            | `com.pandora.android`              | <ul><li>Disable ads</li><li>Unlimited kkips</li></ul>                                                                           |
-| Teuida             | `net.teuida.teuida`                | <ul><li>ReVanced MicroG support</li><li>Enable Premium</li></ul>                                                                |
+| Pandora            | `com.pandora.android`              | <ul><li>Disable ads</li><li>Unlimited skips</li></ul>                                                                           |
+| Teuida             | `net.teuida.teuida`                | <ul><li>Enable Premium</li><li>ReVanced MicroG support</li></ul>                                                                |
 | World Map Quiz     | `com.qbis.guessthecountry`         | <ul><li>Enable Premium</li></ul>                                                                                                |
