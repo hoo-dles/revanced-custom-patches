@@ -1,12 +1,12 @@
-package app.revanced.patches.myexpenses.misc.pro
+package app.revanced.patches.myexpenses.pro
 
 import app.revanced.patcher.extensions.InstructionExtensions.addInstruction
 import app.revanced.patcher.patch.bytecodePatch
 import app.revanced.util.returnEarly
 
 @Suppress("unused")
-val unlockProPatch = bytecodePatch(
-    name = "Unlock Pro",
+val enableProPatch = bytecodePatch(
+    name = "Enable Pro",
 ) {
     compatibleWith("org.totschnig.myexpenses"("3.9.8"))
 

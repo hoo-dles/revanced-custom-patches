@@ -75,12 +75,12 @@ public final class app/revanced/patches/eggbun/premium/FingerprintsKt {
 	public static final field ACCOUNT_CLASS Ljava/lang/String;
 }
 
-public final class app/revanced/patches/guessthecountry/premium/RemoveAdsPatchKt {
+public final class app/revanced/patches/guessthecountry/premium/EnablePremiumPatchKt {
 	public static final fun getEnablePremiumPatch ()Lapp/revanced/patcher/patch/BytecodePatch;
 }
 
-public final class app/revanced/patches/myexpenses/misc/pro/UnlockProPatchKt {
-	public static final fun getUnlockProPatch ()Lapp/revanced/patcher/patch/BytecodePatch;
+public final class app/revanced/patches/myexpenses/pro/EnableProPatchKt {
+	public static final fun getEnableProPatch ()Lapp/revanced/patcher/patch/BytecodePatch;
 }
 
 public final class app/revanced/patches/pandora/ads/DisableAudioAdsPatchKt {
@@ -192,8 +192,8 @@ public final class app/revanced/patches/teuida/premium/EnablePremiumPatchKt {
 	public static final fun getEnablePremiumPatch ()Lapp/revanced/patcher/patch/BytecodePatch;
 }
 
-public final class app/revanced/patches/webster/premium/UnlockPremiumPatchKt {
-	public static final fun getUnlockPremiumPatch ()Lapp/revanced/patcher/patch/BytecodePatch;
+public final class app/revanced/patches/webster/premium/EnablePremiumPatchKt {
+	public static final fun getEnablePremiumPatch ()Lapp/revanced/patcher/patch/BytecodePatch;
 }
 
 public final class app/revanced/util/BytecodeUtilsKt {

@@ -4,8 +4,8 @@ import app.revanced.patcher.extensions.InstructionExtensions.addInstructions
 import app.revanced.patcher.patch.bytecodePatch
 
 @Suppress("unused")
-val UnlockPremiumPatch = bytecodePatch(
-    name = "Unlock Premium"
+val EnablePremiumPatch = bytecodePatch(
+    name = "Enable Premium"
 ) {
     compatibleWith("com.merriamwebster")
 

@@ -1,4 +1,4 @@
-package app.revanced.patches.myexpenses.misc.pro
+package app.revanced.patches.myexpenses.pro
 
 import app.revanced.patcher.fingerprint
 

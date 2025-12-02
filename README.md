@@ -11,14 +11,14 @@
 
 | App                | Package                            | Patches                                                                                                                         |
 |--------------------|------------------------------------|---------------------------------------------------------------------------------------------------------------------------------|
-| Amazon Prime Video | `com.amazon.avod.thirdpartyclient` | <ul><li>Skip Ads</li></ul>                                                                                                      |
+| Amazon Prime Video | `com.amazon.avod.thirdpartyclient` | <ul><li>Skip ads</li></ul>                                                                                                      |
 | Avocards           | `com.avocards`                     | <ul><li>Enable Premium</li></ul>                                                                                                |
 | Cake               | `me.mycake`                        | <ul><li>Enable Plus</li></ul>                                                                                                   |
 | Crunchyroll        | `com.crunchyroll.crunchyroid`      | <ul><li>Enable Premium _(limited functionality)_</li></ul>                                                                      |
-| Duolingo           | `com.duolingo`                     | <ul><li>Enable debug mode</li><li>Unlock licensed songs</li><li>Unlock Super/MAX</li><li>Disable Play Integrity check</li></ul> |
-| Eggbun             | `kr.eggbun.eggconvo`               | <ul><li>Enable Premium</li><li>Force Native Keyboard</li></ul>                                                                  |
-| Merriam-Webster    | `com.merriamwebster`               | <ul><li>Unlock Premium</li></ul>                                                                                                |
-| MyExpenses         | `org.totschnig.myexpenses`         | <ul><li>Unlock Pro _(no expiration)_</li></ul>                                                                                  |
-| Pandora            | `com.pandora.android`              | <ul><li>Disable Ads</li><li>Unlimited Skips</li></ul>                                                                           |
-| Teuida             | `net.teuida.teuida`                | <ul><li>ReVanced MicroG support</li><li>Unlock Premium</li></ul>                                                                |
-| World Map Quiz     | `com.qbis.guessthecountry`         | <ul><li>Unlock Premium</li></ul>                                                                                                |
+| Duolingo           | `com.duolingo`                     | <ul><li>Enable debug mode</li><li>Unlock licensed songs</li><li>Enable Super/MAX</li><li>Disable Play Integrity check</li></ul> |
+| Eggbun             | `kr.eggbun.eggconvo`               | <ul><li>Enable Premium</li><li>Force native keyboard</li></ul>                                                                  |
+| Merriam-Webster    | `com.merriamwebster`               | <ul><li>Enable Premium</li></ul>                                                                                                |
+| MyExpenses         | `org.totschnig.myexpenses`         | <ul><li>Enable Pro</li></ul>                                                                                                    |
+| Pandora            | `com.pandora.android`              | <ul><li>Disable ads</li><li>Unlimited kkips</li></ul>                                                                           |
+| Teuida             | `net.teuida.teuida`                | <ul><li>ReVanced MicroG support</li><li>Enable Premium</li></ul>                                                                |
+| World Map Quiz     | `com.qbis.guessthecountry`         | <ul><li>Enable Premium</li></ul>                                                                                                |
