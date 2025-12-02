@@ -1,3 +1,10 @@
+# [1.8.0-dev.3](https://github.com/hoo-dles/revanced-custom-patches/compare/v1.8.0-dev.2...v1.8.0-dev.3) (2025-12-02)
+
+
+### Features
+
+* **Pandora:** Add `Disable Ads` and `Unlimited Skips` patches ([37e6b2f](https://github.com/hoo-dles/revanced-custom-patches/commit/37e6b2fc00f2f37dc978cd2b2a5d34aa3cf5182b))
+
 # [1.8.0-dev.2](https://github.com/hoo-dles/revanced-custom-patches/compare/v1.8.0-dev.1...v1.8.0-dev.2) (2025-12-02)
 
 
