@@ -811,6 +811,22 @@ fun MutableMethod.returnEarly(value: Double) {
 }
 
 /**
+ * Overrides the first instruction of a method with a constant String return value.
+ * None of the method code will ever execute.
+ *
+ * Target method must have return type
+ * Ljava/lang/String; or Ljava/lang/CharSequence;
+ *
+ * @see returnLate
+ */
+fun MutableMethod.returnEarly(value: String) {
+    check(returnType == "Ljava/lang/String;" || returnType == "Ljava/lang/CharSequence;") {
+        RETURN_TYPE_MISMATCH
+    }
+    overrideReturnValue(value, false)
+}
+
+/**
  * Overrides all return statements with a constant `Boolean` value.
  * All method code is executed the same as unpatched.
  *

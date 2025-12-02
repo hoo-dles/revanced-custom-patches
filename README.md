@@ -19,5 +19,6 @@
 | Eggbun             | `kr.eggbun.eggconvo`               | <ul><li>Enable Premium</li><li>Force Native Keyboard</li></ul>                                                                  |
 | Merriam-Webster    | `com.merriamwebster`               | <ul><li>Unlock Premium</li></ul>                                                                                                |
 | MyExpenses         | `org.totschnig.myexpenses`         | <ul><li>Unlock Pro _(no expiration)_</li></ul>                                                                                  |
+| Pandora            | `com.pandora.android`              | <ul><li>Disable Ads</li><li>Unlimited Skips</li></ul>                                                                           |
 | Teuida             | `net.teuida.teuida`                | <ul><li>ReVanced MicroG support</li><li>Unlock Premium</li></ul>                                                                |
 | World Map Quiz     | `com.qbis.guessthecountry`         | <ul><li>Unlock Premium</li></ul>                                                                                                |
