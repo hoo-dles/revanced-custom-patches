@@ -1,3 +1,10 @@
+# [1.8.0-dev.2](https://github.com/hoo-dles/revanced-custom-patches/compare/v1.8.0-dev.1...v1.8.0-dev.2) (2025-12-02)
+
+
+### Features
+
+* **Prime Video:** Add `Skip Ads` patch ([ec56c2b](https://github.com/hoo-dles/revanced-custom-patches/commit/ec56c2bdb529e1c592be9f4493ca0385b91fbb3b))
+
 # [1.8.0-dev.1](https://github.com/hoo-dles/revanced-custom-patches/compare/v1.7.0...v1.8.0-dev.1) (2025-11-22)
 
 
