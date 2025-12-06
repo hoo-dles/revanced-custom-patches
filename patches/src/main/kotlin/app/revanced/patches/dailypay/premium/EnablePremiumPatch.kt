@@ -1,13 +1,13 @@
-package app.revanced.patches.dailypocket
+package app.revanced.patches.dailypay.premium
 
 import app.revanced.patcher.patch.rawResourcePatch
-
 
 @Suppress("unused")
 val enablePremiumPatch = rawResourcePatch(
     name = "Enable Premium"
 ) {
     compatibleWith("kr.co.yjteam.dailypay")
+    dependsOn(premiumWidgetPatch)
 
     execute {
         var indexFile = get("assets/www/assets")

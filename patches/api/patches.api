@@ -30,8 +30,12 @@ public final class app/revanced/patches/crunchyroll/premium/EnablePremiumPatchKt
 	public static final fun getEnablePremiumPatch ()Lapp/revanced/patcher/patch/BytecodePatch;
 }
 
-public final class app/revanced/patches/dailypocket/EnablePremiumPatchKt {
+public final class app/revanced/patches/dailypay/premium/EnablePremiumPatchKt {
 	public static final fun getEnablePremiumPatch ()Lapp/revanced/patcher/patch/RawResourcePatch;
+}
+
+public final class app/revanced/patches/dailypay/premium/FingerprintsKt {
+	public static final fun getWidgetConfigOnCreateFingerprint ()Lapp/revanced/patcher/Fingerprint;
 }
 
 public final class app/revanced/patches/duolingo/misc/debug/EnableDebugModePatchKt {

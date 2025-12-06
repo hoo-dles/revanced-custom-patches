@@ -15,7 +15,7 @@
 | Avocards           | `com.avocards`                     | <ul><li>Enable Premium</li></ul>                                                                                                |
 | Cake               | `me.mycake`                        | <ul><li>Enable Plus</li></ul>                                                                                                   |
 | Crunchyroll        | `com.crunchyroll.crunchyroid`      | <ul><li>Enable Premium _(limited functionality)_</li></ul>                                                                      |
-| Daily Pocket       | `kr.co.yjteam.dailypay`            | <ul><li>Enable Premium</li></ul>                                                                                                |
+| Daily Pay          | `kr.co.yjteam.dailypay`            | <ul><li>Enable Premium</li></ul>                                                                                                |
 | Duolingo           | `com.duolingo`                     | <ul><li>Disable Play Integrity check</li><li>Enable debug mode</li><li>Enable Super/MAX</li><li>Unlock licensed songs</li></ul> |
 | Eggbun             | `kr.eggbun.eggconvo`               | <ul><li>Enable Premium</li><li>Force native keyboard</li></ul>                                                                  |
 | Merriam-Webster    | `com.merriamwebster`               | <ul><li>Enable Premium</li></ul>                                                                                                |
