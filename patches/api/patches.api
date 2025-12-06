@@ -30,6 +30,14 @@ public final class app/revanced/patches/crunchyroll/premium/EnablePremiumPatchKt
 	public static final fun getEnablePremiumPatch ()Lapp/revanced/patcher/patch/BytecodePatch;
 }
 
+public final class app/revanced/patches/dailypay/premium/EnablePremiumPatchKt {
+	public static final fun getEnablePremiumPatch ()Lapp/revanced/patcher/patch/RawResourcePatch;
+}
+
+public final class app/revanced/patches/dailypay/premium/FingerprintsKt {
+	public static final fun getWidgetConfigOnCreateFingerprint ()Lapp/revanced/patcher/Fingerprint;
+}
+
 public final class app/revanced/patches/duolingo/misc/debug/EnableDebugModePatchKt {
 	public static final fun getEnableDebugModePatch ()Lapp/revanced/patcher/patch/BytecodePatch;
 }
@@ -47,10 +55,6 @@ public final class app/revanced/patches/duolingo/music/FullSongsPatchKt {
 	public static final fun getUnlockFullSongsPatch ()Lapp/revanced/patcher/patch/BytecodePatch;
 }
 
-public final class app/revanced/patches/duolingo/nags/DisableNagsPatchKt {
-	public static final fun getDisableNagsPatch ()Lapp/revanced/patcher/patch/BytecodePatch;
-}
-
 public final class app/revanced/patches/duolingo/premium/EnablePremiumPatchKt {
 	public static final fun getEnablePremiumPatch ()Lapp/revanced/patcher/patch/BytecodePatch;
 }
@@ -63,6 +67,14 @@ public final class app/revanced/patches/duolingo/premium/PremiumVariant : java/l
 	public static fun values ()[Lapp/revanced/patches/duolingo/premium/PremiumVariant;
 }
 
+public final class app/revanced/patches/eggbun/misc/keyboard/FingerprintsKt {
+	public static final fun getKrKeyboardCtorFingerprint ()Lapp/revanced/patcher/Fingerprint;
+}
+
+public final class app/revanced/patches/eggbun/misc/keyboard/NativeKeyboardPatchKt {
+	public static final fun getEnablePremiumPatch ()Lapp/revanced/patcher/patch/BytecodePatch;
+}
+
 public final class app/revanced/patches/eggbun/premium/EnablePremiumPatchKt {
 	public static final fun getEnablePremiumPatch ()Lapp/revanced/patcher/patch/BytecodePatch;
 }
@@ -71,12 +83,32 @@ public final class app/revanced/patches/eggbun/premium/FingerprintsKt {
 	public static final field ACCOUNT_CLASS Ljava/lang/String;
 }
 
-public final class app/revanced/patches/guessthecountry/premium/RemoveAdsPatchKt {
+public final class app/revanced/patches/guessthecountry/premium/EnablePremiumPatchKt {
 	public static final fun getEnablePremiumPatch ()Lapp/revanced/patcher/patch/BytecodePatch;
 }
 
-public final class app/revanced/patches/myexpenses/misc/pro/UnlockProPatchKt {
-	public static final fun getUnlockProPatch ()Lapp/revanced/patcher/patch/BytecodePatch;
+public final class app/revanced/patches/myexpenses/pro/EnableProPatchKt {
+	public static final fun getEnableProPatch ()Lapp/revanced/patcher/patch/BytecodePatch;
+}
+
+public final class app/revanced/patches/pandora/ads/DisableAudioAdsPatchKt {
+	public static final fun getDisableAudioAdsPatch ()Lapp/revanced/patcher/patch/BytecodePatch;
+}
+
+public final class app/revanced/patches/pandora/misc/EnableUnlimitedSkipsPatchKt {
+	public static final fun getEnableUnlimitedSkipsPatch ()Lapp/revanced/patcher/patch/BytecodePatch;
+}
+
+public final class app/revanced/patches/primevideo/ads/SkipAdsPatchKt {
+	public static final fun getSkipAdsPatch ()Lapp/revanced/patcher/patch/BytecodePatch;
+}
+
+public final class app/revanced/patches/primevideo/misc/extension/ExtensionPatchKt {
+	public static final fun getSharedExtensionPatch ()Lapp/revanced/patcher/patch/BytecodePatch;
+}
+
+public final class app/revanced/patches/primevideo/misc/permissions/RenamePermissionsPatchKt {
+	public static final fun getRenamePermissionsPatch ()Lapp/revanced/patcher/patch/ResourcePatch;
 }
 
 public final class app/revanced/patches/shared/misc/extension/ExtensionHook {
@@ -168,8 +200,8 @@ public final class app/revanced/patches/teuida/premium/EnablePremiumPatchKt {
 	public static final fun getEnablePremiumPatch ()Lapp/revanced/patcher/patch/BytecodePatch;
 }
 
-public final class app/revanced/patches/webster/premium/UnlockPremiumPatchKt {
-	public static final fun getUnlockPremiumPatch ()Lapp/revanced/patcher/patch/BytecodePatch;
+public final class app/revanced/patches/webster/premium/EnablePremiumPatchKt {
+	public static final fun getEnablePremiumPatch ()Lapp/revanced/patcher/patch/BytecodePatch;
 }
 
 public final class app/revanced/util/BytecodeUtilsKt {
@@ -227,6 +259,7 @@ public final class app/revanced/util/BytecodeUtilsKt {
 	public static final fun returnEarly (Lapp/revanced/patcher/util/proxy/mutableTypes/MutableMethod;F)V
 	public static final fun returnEarly (Lapp/revanced/patcher/util/proxy/mutableTypes/MutableMethod;I)V
 	public static final fun returnEarly (Lapp/revanced/patcher/util/proxy/mutableTypes/MutableMethod;J)V
+	public static final fun returnEarly (Lapp/revanced/patcher/util/proxy/mutableTypes/MutableMethod;Ljava/lang/String;)V
 	public static final fun returnEarly (Lapp/revanced/patcher/util/proxy/mutableTypes/MutableMethod;S)V
 	public static final fun returnEarly (Lapp/revanced/patcher/util/proxy/mutableTypes/MutableMethod;Z)V
 	public static synthetic fun returnEarly$default (Lapp/revanced/patcher/util/proxy/mutableTypes/MutableMethod;ZILjava/lang/Object;)V

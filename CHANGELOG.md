@@ -1,3 +1,38 @@
+# [1.8.0-dev.5](https://github.com/hoo-dles/revanced-custom-patches/compare/v1.8.0-dev.4...v1.8.0-dev.5) (2025-12-06)
+
+
+### Bug Fixes
+
+* **Daily Pay:** Bypass premium check on widget ([b63c245](https://github.com/hoo-dles/revanced-custom-patches/commit/b63c24594018b54f73bd2a82a23dc75496c76ac8))
+
+# [1.8.0-dev.4](https://github.com/hoo-dles/revanced-custom-patches/compare/v1.8.0-dev.3...v1.8.0-dev.4) (2025-12-06)
+
+
+### Features
+
+* **Daily Pocket:** Add `Enable Premium` patch ([eb1785d](https://github.com/hoo-dles/revanced-custom-patches/commit/eb1785d8794c5eb293fab87106a27404130944fd))
+
+# [1.8.0-dev.3](https://github.com/hoo-dles/revanced-custom-patches/compare/v1.8.0-dev.2...v1.8.0-dev.3) (2025-12-02)
+
+
+### Features
+
+* **Pandora:** Add `Disable Ads` and `Unlimited Skips` patches ([37e6b2f](https://github.com/hoo-dles/revanced-custom-patches/commit/37e6b2fc00f2f37dc978cd2b2a5d34aa3cf5182b))
+
+# [1.8.0-dev.2](https://github.com/hoo-dles/revanced-custom-patches/compare/v1.8.0-dev.1...v1.8.0-dev.2) (2025-12-02)
+
+
+### Features
+
+* **Prime Video:** Add `Skip Ads` patch ([ec56c2b](https://github.com/hoo-dles/revanced-custom-patches/commit/ec56c2bdb529e1c592be9f4493ca0385b91fbb3b))
+
+# [1.8.0-dev.1](https://github.com/hoo-dles/revanced-custom-patches/compare/v1.7.0...v1.8.0-dev.1) (2025-11-22)
+
+
+### Features
+
+* **Eggbun:** Add `Force Native Keyboard` patch ([dc3b9c0](https://github.com/hoo-dles/revanced-custom-patches/commit/dc3b9c0ad933210941aecdc6dca924cf9974104a))
+
 # [1.7.0](https://github.com/hoo-dles/revanced-custom-patches/compare/v1.6.0...v1.7.0) (2025-11-18)
 
 
