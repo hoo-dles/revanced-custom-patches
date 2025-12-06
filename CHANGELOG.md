@@ -1,3 +1,10 @@
+# [1.8.0-dev.5](https://github.com/hoo-dles/revanced-custom-patches/compare/v1.8.0-dev.4...v1.8.0-dev.5) (2025-12-06)
+
+
+### Bug Fixes
+
+* **Daily Pay:** Bypass premium check on widget ([b63c245](https://github.com/hoo-dles/revanced-custom-patches/commit/b63c24594018b54f73bd2a82a23dc75496c76ac8))
+
 # [1.8.0-dev.4](https://github.com/hoo-dles/revanced-custom-patches/compare/v1.8.0-dev.3...v1.8.0-dev.4) (2025-12-06)
 
 
