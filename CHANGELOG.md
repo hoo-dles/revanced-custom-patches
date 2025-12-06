@@ -1,3 +1,10 @@
+# [1.8.0-dev.4](https://github.com/hoo-dles/revanced-custom-patches/compare/v1.8.0-dev.3...v1.8.0-dev.4) (2025-12-06)
+
+
+### Features
+
+* **Daily Pocket:** Add `Enable Premium` patch ([eb1785d](https://github.com/hoo-dles/revanced-custom-patches/commit/eb1785d8794c5eb293fab87106a27404130944fd))
+
 # [1.8.0-dev.3](https://github.com/hoo-dles/revanced-custom-patches/compare/v1.8.0-dev.2...v1.8.0-dev.3) (2025-12-02)
 
 
