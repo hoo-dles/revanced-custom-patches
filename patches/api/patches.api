@@ -30,6 +30,10 @@ public final class app/revanced/patches/crunchyroll/premium/EnablePremiumPatchKt
 	public static final fun getEnablePremiumPatch ()Lapp/revanced/patcher/patch/BytecodePatch;
 }
 
+public final class app/revanced/patches/dailypocket/EnablePremiumPatchKt {
+	public static final fun getEnablePremiumPatch ()Lapp/revanced/patcher/patch/RawResourcePatch;
+}
+
 public final class app/revanced/patches/duolingo/misc/debug/EnableDebugModePatchKt {
 	public static final fun getEnableDebugModePatch ()Lapp/revanced/patcher/patch/BytecodePatch;
 }
