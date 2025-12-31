@@ -2,6 +2,7 @@ package app.revanced.patches.shared.misc.hex
 
 import app.revanced.patcher.patch.PatchException
 import app.revanced.patcher.patch.rawResourcePatch
+import app.revanced.util.byteArrayOf
 import kotlin.collections.component1
 import kotlin.collections.component2
 import kotlin.math.max
@@ -136,20 +137,4 @@ class Replacement(
         }
         return -1
     }
-}
-
-/**
- * Convert a string representing a pattern of hexadecimal bytes to a byte array.
- *
- * @return The byte array representing the pattern.
- * @throws PatchException If the pattern is invalid.
- */
-private fun byteArrayOf(pattern: String) = try {
-    pattern.split(" ").map { it.toInt(16).toByte() }.toByteArray()
-} catch (e: NumberFormatException) {
-    throw PatchException(
-        "Could not parse pattern: $pattern. A pattern is a sequence of case insensitive strings " +
-                "representing hexadecimal bytes separated by spaces",
-        e,
-    )
 }
