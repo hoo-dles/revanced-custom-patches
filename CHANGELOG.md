@@ -1,3 +1,10 @@
+# [1.9.0-dev.1](https://github.com/hoo-dles/revanced-custom-patches/compare/v1.8.0...v1.9.0-dev.1) (2025-12-31)
+
+
+### Features
+
+* **TTMIK Stories:** Add `Enable Premium` patch ([af5e75f](https://github.com/hoo-dles/revanced-custom-patches/commit/af5e75f2be6f5eea89b4a269c5ddac6f660a7fda))
+
 # [1.8.0](https://github.com/hoo-dles/revanced-custom-patches/compare/v1.7.0...v1.8.0) (2025-12-06)
 
 

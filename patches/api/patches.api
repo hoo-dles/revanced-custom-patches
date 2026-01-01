@@ -23,6 +23,7 @@ public final class app/revanced/patches/avocards/premium/EnablePremiumPatchKt {
 }
 
 public final class app/revanced/patches/cake/plus/EnablePlusPatchKt {
+	public static final field RETURN_TRUE Ljava/lang/String;
 	public static final fun getEnablePlusPatch ()Lapp/revanced/patcher/patch/RawResourcePatch;
 }
 
@@ -133,6 +134,12 @@ public final class app/revanced/patches/shared/misc/gms/GmsCoreSupportPatchKt {
 	public static synthetic fun gmsCoreSupportResourcePatch$default (Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Lapp/revanced/patcher/patch/Option;Lkotlin/jvm/functions/Function1;Lkotlin/jvm/functions/Function1;ILjava/lang/Object;)Lapp/revanced/patcher/patch/ResourcePatch;
 }
 
+public final class app/revanced/patches/shared/misc/hermes/HermesPatchKt {
+	public static final field HERMES_BUNDLE_PATH Ljava/lang/String;
+	public static final fun getHERMES_MAGIC ()[B
+	public static final fun hermesPatch (Lkotlin/jvm/functions/Function0;)Lapp/revanced/patcher/patch/RawResourcePatch;
+}
+
 public final class app/revanced/patches/shared/misc/hex/HexPatchBuilder : java/util/Set, kotlin/jvm/internal/markers/KMappedMarker {
 	public fun <init> ()V
 	public fun add (Lapp/revanced/patches/shared/misc/hex/Replacement;)Z
@@ -198,6 +205,10 @@ public final class app/revanced/patches/teuida/misc/gms/GmsCoreSupportPatchKt {
 
 public final class app/revanced/patches/teuida/premium/EnablePremiumPatchKt {
 	public static final fun getEnablePremiumPatch ()Lapp/revanced/patcher/patch/BytecodePatch;
+}
+
+public final class app/revanced/patches/ttmikstories/premium/EnablePremiumPatchKt {
+	public static final fun getEnablePremiumPatch ()Lapp/revanced/patcher/patch/RawResourcePatch;
 }
 
 public final class app/revanced/patches/webster/premium/EnablePremiumPatchKt {
@@ -290,6 +301,13 @@ public final class app/revanced/util/ResourceUtilsKt {
 	public static final fun forEachChildElement (Lorg/w3c/dom/Node;Lkotlin/jvm/functions/Function1;)V
 	public static final fun insertFirst (Lorg/w3c/dom/Node;Lorg/w3c/dom/Node;)V
 	public static final fun iterateXmlNodeChildren (Lapp/revanced/patcher/patch/ResourcePatchContext;Ljava/lang/String;Ljava/lang/String;Lkotlin/jvm/functions/Function1;)V
+}
+
+public final class app/revanced/util/UtilsKt {
+	public static final fun byteArrayOf (Ljava/lang/String;)[B
+	public static final fun toHexString (Z)Ljava/lang/String;
+	public static final fun toInt ([BZ)I
+	public static synthetic fun toInt$default ([BZILjava/lang/Object;)I
 }
 
 public final class app/revanced/util/resource/ArrayResource : app/revanced/util/resource/BaseResource {
