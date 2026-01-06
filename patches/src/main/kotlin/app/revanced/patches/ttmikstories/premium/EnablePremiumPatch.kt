@@ -3,7 +3,6 @@ package app.revanced.patches.ttmikstories.premium
 import app.revanced.patcher.patch.rawResourcePatch
 import app.revanced.patches.shared.misc.hermes.hermesPatch
 
-
 @Suppress("unused")
 val enablePremiumPatch = rawResourcePatch(
     name = "Enable Premium"

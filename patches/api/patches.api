@@ -88,6 +88,14 @@ public final class app/revanced/patches/guessthecountry/premium/EnablePremiumPat
 	public static final fun getEnablePremiumPatch ()Lapp/revanced/patcher/patch/BytecodePatch;
 }
 
+public final class app/revanced/patches/lingory/misc/notifications/BlockNotificationPermissionsPatchKt {
+	public static final fun getBlockNotificationPermissionsPatch ()Lapp/revanced/patcher/patch/RawResourcePatch;
+}
+
+public final class app/revanced/patches/lingory/premium/EnablePremiumPatchKt {
+	public static final fun getEnablePremiumPatch ()Lapp/revanced/patcher/patch/RawResourcePatch;
+}
+
 public final class app/revanced/patches/myexpenses/pro/EnableProPatchKt {
 	public static final fun getEnableProPatch ()Lapp/revanced/patcher/patch/BytecodePatch;
 }
