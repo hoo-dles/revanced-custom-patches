@@ -1,3 +1,10 @@
+# [1.10.0](https://github.com/hoo-dles/revanced-custom-patches/compare/v1.9.0...v1.10.0) (2026-01-06)
+
+
+### Features
+
+* **Lingory:** Add `Enable Premium` and `Block Notification Permissions` patches ([1883a73](https://github.com/hoo-dles/revanced-custom-patches/commit/1883a73a4c5e8fe231143265d50b872b641f1c6c))
+
 # [1.10.0-dev.1](https://github.com/hoo-dles/revanced-custom-patches/compare/v1.9.0...v1.10.0-dev.1) (2026-01-06)
 
 
