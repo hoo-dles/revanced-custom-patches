@@ -1,11 +1,12 @@
+> [!IMPORTANT]
+> As of January 2026, patches will be maintained in a [new repo](https://github.com/hoo-dles/morphe-patches) that uses the [Morphe API](https://github.com/MorpheApp).
+
+<br />
+
 # :leaves: hoo-dles ReVanced Patches
 
 ![GitHub Workflow Status (with event)](https://img.shields.io/github/actions/workflow/status/hoo-dles/revanced-custom-patches/release.yml)
 ![GPLv3 License](https://img.shields.io/badge/License-GPL%20v3-yellow.svg)
-
-> [!NOTE]
-> Patch requests are always welcome. Feel free to open an issue if a feature isn't appropriate for the
-> main [ReVanced patches](https://github.com/ReVanced/revanced-patches) repo!
 
 <br/>
 
